@@ -1,5 +1,3 @@
-# [Dean McCrary]
-
 Welcome to my portfolio! I am an aspiring network engineer and cybersecurity professional. Here you can find my projects, skills, and a bit about me.
 
 ---
