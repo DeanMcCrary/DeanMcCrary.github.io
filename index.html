@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dean McCrary Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      position: relative;
+    }
+    .watermark {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      background: rgba(0,0,0,0.5);
+      color: #fff;
+      padding: 2px 6px;
+      font-size: 0.7rem;
+      border-radius: 4px;
+    }
+    .image-container {
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Dean McCrary</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="photography.html">Photography</a></li>
+        <li><a href="art.html">Art</a></li>
+        <li><a href="it.html">I.T.</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="home">
+    <section class="hero">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Explore my work in Photography, Art, and I.T.</p>
+    </section>
+  </main>
+
+  <section class="gallery">
+    <div class="image-container">
+      <img src="images/photo1.jpg" alt="Photography 1">
+      <div class="watermark">© Dean McCrary</div>
+    </div>
+    <div class="image-container">
+      <img src="images/photo2.jpg" alt="Photography 2">
+      <div class="watermark">© Dean McCrary</div>
+    </div>
+    <div class="image-container">
+      <img src="images/photo3.jpg" alt="Photography 3">
+      <div class="watermark">© Dean McCrary</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dean McCrary</p>
+  </footer>
+
+  <script>
+    // Disable right-click
+    document.addEventListener("contextmenu", function(e) {
+      e.preventDefault();
+    });
+  </script>
+</body>
+</html>
