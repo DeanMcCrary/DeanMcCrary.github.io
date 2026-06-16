@@ -17,19 +17,6 @@ I am passionate about computer networking, virtualization, automation, and cyber
 
 ---
 
-## Projects
-
-### 1. [Network Monitoring Tool](https://github.com/yourusername/network-monitoring-tool)
-*Created a Python-based tool to monitor network devices and alert on availability issues.*
-
-### 2. [Network Topology Mapper](https://github.com/yourusername/network-topology-mapper)
-*Combined Python-based tools to map and visualize existing networks.*
-
-### 3. [Home Lab](https://github.com/yourusername/home-lab)
-*Documented a home lab environment setup with virtualization and networking tools.*
-
----
-
 ## Contact
 
 Feel free to reach out to me:
